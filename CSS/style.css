@@ -1,0 +1,443 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* the the main container */
+.ios{
+    width: 24%;
+    height: 98vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 40%;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    /* the animation color side */
+    background: conic-gradient(
+        #d000d4,#f38973,transparent,#d000d4
+    ) 
+}
+
+/* inner second inner section */
+.ios::before{
+    content: "";
+    width: 96%;
+    height: 90vh;
+    padding: 2px;
+    position: absolute;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 30px;
+    background: url("../icons/web_browser\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: none;   */
+}
+
+/* the main container hover effects */
+.ios:hover{
+    background: conic-gradient(
+        #d000d4,#f38973,transparent,#d000d4
+    ); 
+    cursor: pointer;
+}
+
+/* for the small section on top */
+.ios::after{
+    content: "";
+    width: 50%;
+    height: 5vh;
+    top: 0;
+    position: absolute;
+    background-color: #d000d4;
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* buttons links */
+.SHOP1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+/* for tthe button home icon */
+.home{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    background-color: wheat;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* the button icons */
+.button{
+    background-color: #f38973;
+    z-index: 1;
+    width: 92.5%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    border-top: 5px solid gold;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* border-radius: 15px; */
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 17px;
+    height: 7vh;
+}
+
+/* for the button icons */
+.button a img{
+    margin: 2px;
+    filter: brightness(0) invert(8);
+}
+
+/* forr home icon */
+.button a img .home{
+    margin: 2px;
+    filter: grayscale(100%);
+}
+
+/* for the button  home icon hover */
+.button a .home:hover{
+    background-color: white;
+    opacity: 0.7;
+}
+
+/* for the home icons */
+.home-icons{
+    z-index: 1;
+    margin-bottom: -38px;
+    /* display: none; */
+ }
+
+ /* for home icons anchor links */
+ .home-icons a{
+   margin: 5px;
+   position: sticky;
+ }
+
+ /* for the home icon link hover effects */
+ .home-icons a:hover{
+    opacity: 0.7;
+ }
+ 
+/* the time and the network bars */
+.image{
+    display: inline;
+    position: absolute;
+    top: 0;
+    margin-left: 0%;
+    padding-top: 0px;
+    filter: brightness(0) invert(1);
+}
+
+/* for the time */
+h4{
+    position: absolute;
+    top: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* network bars and the battery */
+.net{
+    position: relative;
+    display: flex;
+    margin-right: 10px;
+}
+
+/* for the top icons */
+.image{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    margin-left:110px;
+    margin-top: 22px;
+}
+
+/* welcomme text */
+p{
+    z-index: 99;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: #d000d4;
+    padding: 20px;
+    width: 89%;
+    opacity: 0.7;
+    display: flex;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/* home picture */
+.sam{
+    z-index: 99;
+}
+
+/* my picture image */
+.sam img{
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* my details */
+
+h2{
+    color: white;
+    background-color: #f38973;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: 5px solid #d000d4;
+}
+
+/* h3 hover effects */
+h3:hover{
+    background-color: #d000d4;
+    color: white;
+}
+
+/* for the register link */
+.here{
+    top: 10px;
+    margin-top: -20px;
+    background-color: white;
+    padding: 5px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-decoration: none;
+    font-weight: bolders;
+    text-transform: lowercase;
+    /* display: none; */
+}
+
+/* register link hover */
+.here{
+    background-color: #d000d4;
+    color: white;
+}
+
+.link{
+    margin-top: -12px;
+    margin-bottom: 9px;
+}
+
+/* Media Screen 400 */
+@media screen and (min-width: 400px) {
+    /* the the main container */
+    .ios{
+        width: 25%;
+        height: 97vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        /* the animation color side */
+        background: conic-gradient(
+            yellow,yellow,#d000d4,#d000d4
+        ) 
+    }
+
+    /* the button icons */
+        .button{
+            background-color: #f38973;
+            z-index: 1;
+            width: 92%;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            border-top: 5px solid #d000d4;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            /* border-radius: 15px; */
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin-bottom: 17px;
+            height: 7vh;
+        }
+
+        /* inner second inner section */
+            .ios::before{
+                content: "";
+                width: 96%;
+                height: 90vh;
+                padding: 2px;
+                position: absolute;
+                background-color: white;
+                overflow: hidden;
+                border-radius: 30px;
+                background: url("../icons/mobile\ app\ image.webp");
+                background-repeat: no-repeat;
+                background-size: cover;
+                /* display: none;   */
+            }
+}
+
+
+
+/* ==== MEDIA SCREEN ==================================== */
+/* NORMAL MOBILE APP SCREEN  */
+@media screen and (max-width: 767px) {
+    /* the the main container */
+    .ios{
+        width: 65%;
+        height: 97vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        /* the animation color side */
+        background: conic-gradient(
+            yellow,yellow,#d000d4,#d000d4
+        ) 
+    }
+
+    /* the button icons */
+        .button{
+            background-color: #f38973;
+            z-index: 1;
+            width: 92%;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            border-top: 5px solid #d000d4;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            /* border-radius: 15px; */
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin-bottom: 17px;
+            height: 7vh;
+        }
+
+        /* inner second inner section */
+            .ios::before{
+                content: "";
+                width: 96%;
+                height: 90vh;
+                padding: 2px;
+                position: absolute;
+                background-color: white;
+                overflow: hidden;
+                border-radius: 30px;
+                background: url("../icons/mobile\ app\ image.webp");
+                background-repeat: no-repeat;
+                background-size: cover;
+                /* display: none;   */
+            }
+}
+
+
+@media screen and (max-width: 412px) {
+    /* the the main container */
+    .ios{
+        width: 100%;
+        height: 97vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        /* the animation color side */
+        background: conic-gradient(
+            yellow,yellow,#d000d4,#d000d4
+        ) 
+    }
+
+    /* the button icons */
+        .button{
+            background-color: #f38973;
+            z-index: 1;
+            width: 100%;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            border-top: 5px solid #d000d4;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            /* border-radius: 15px; */
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin-bottom: 17px;
+            height: 7vh;
+        }
+
+        /* inner second inner section */
+            .ios::before{
+                content: "";
+                width: 100%;
+                height: 90vh;
+                padding: 2px;
+                position: absolute;
+                background-color: white;
+                overflow: hidden;
+                border-radius: 30px;
+                background: url("../icons/mobile\ app\ image.webp");
+                background-repeat: no-repeat;
+                background-size: cover;
+                /* display: none;   */
+            }
+}
+
+
+
+
+
+ 
+
+ 
+ 
+
+
