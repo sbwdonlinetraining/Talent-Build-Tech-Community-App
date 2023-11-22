@@ -23,3 +23,4 @@ Satisfy Your Cravings: Order delicious food from local restaurants right at your
 Personalized Dashboard: Access your personalized dashboard for a tailored experience.
 
 Join us in building a stronger, more connected community. Explore, engage, and enjoy the benefits of our Local Community Hub app!
+https://github.com/sbwdonlinetraining/Talent-Build-Tech-Community-App/issues/1
